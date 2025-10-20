@@ -1,0 +1,18 @@
+# env & secrets
+.env
+
+# python
+__pycache__/
+*.pyc
+.venv/
+
+# vector DB & data cache
+chroma_store/
+data/*.pdf
+data/*.docx
+
+# OS / IDE
+.DS_Store
+*.log
+.vscode/
+.idea/
